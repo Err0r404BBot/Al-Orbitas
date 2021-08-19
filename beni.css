@@ -406,8 +406,8 @@ animation-duration: 1s;
       font-size: 22px;
   
     }
-  .fondotitan, .fondoencelado, .fondotetis, .fondofebe, .fondorea, .fondopandora, .fondomimas, .fondoengeon, .fondoencelado h1{
-     font-size: 1.8em;
+  .fondotitan h1, .fondoencelado h1, .fondotetis h1, .fondofebe h1, .fondorea h1, .fondopandora h1, .fondomimas h1, .fondoengeon h1, .fondoencelado h1{
+     font-size: 1em;
     left: 28%;
     top:24%;
     opacity:0.7;
@@ -501,8 +501,8 @@ animation-duration: 1s;
 .titan, .rea, .pandora, .mimas, .engeon, .encelado{
       font-size: 22px;
     }
- .fondotitan, .fondoencelado, .fondotetis, .fondofebe, .fondorea, .fondopandora, .fondomimas, .fondoengeon, .fondoencelado h1{
-     font-size: 1.8em;
+.fondotitan h1, .fondoencelado h1, .fondotetis h1, .fondofebe h1, .fondorea h1, .fondopandora h1, .fondomimas h1, .fondoengeon h1, .fondoencelado h1{
+     font-size: 1em;
     left: 28%;
     top:24%;
     opacity:0.7;
@@ -597,8 +597,8 @@ animation-duration: 1s;
 .titan, .rea, .pandora, .mimas, .engeon, .encelado{
       font-size: 22px;
     }
- .fondotitan, .fondoencelado, .fondotetis, .fondofebe, .fondorea, .fondopandora, .fondomimas, .fondoengeon, .fondoencelado h1{
-     font-size: 1.8em;
+ .fondotitan h1, .fondoencelado h1, .fondotetis h1, .fondofebe h1, .fondorea h1, .fondopandora h1, .fondomimas h1, .fondoengeon h1, .fondoencelado h1{
+     font-size: 1em;
     left: 28%;
     top:24%;
     opacity:0.7;
@@ -699,8 +699,8 @@ animation-duration: 1s;
 .titan, .rea, .pandora, .mimas, .engeon, .encelado{
       font-size: 22px;
     }
-.fondotitan, .fondoencelado, .fondotetis, .fondofebe, .fondorea, .fondopandora, .fondomimas, .fondoengeon, .fondoencelado h1{
-     font-size: 1.8em;
+.fondotitan h1, .fondoencelado h1, .fondotetis h1, .fondofebe h1, .fondorea h1, .fondopandora h1, .fondomimas h1, .fondoengeon h1, .fondoencelado h1{
+     font-size: 1em;
     left: 28%;
     top:24%;
     opacity:0.7;
