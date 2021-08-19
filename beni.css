@@ -116,6 +116,7 @@ h2:hover, #al:hover{
 
 }
 .text-fixed{
+  
     width: 100%;
     max-width: 500px;
     position: fixed;
@@ -124,6 +125,7 @@ h2:hover, #al:hover{
     transform: translateY(-50%);
 }
 .text-fixed p{
+  
   padding: none;
   text-align: center;
   font-family: 'Courier Prime', monospace;
@@ -384,7 +386,8 @@ animation-duration: 1s;
       top: 55%;
   }
   .text-fixed p{
-    font-size: 0.6em;
+    font-size: 0.7em;
+    opacity: 0.5;
   }
   .icono-inicio{
 
