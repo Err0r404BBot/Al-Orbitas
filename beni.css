@@ -260,7 +260,7 @@ animation-duration: 1s;
 .fondorea{
 position:relative;height: 240vh; width:100%;
 background-image: url(img/rea.png);
-background-size:cover;
+background-size:100%;
 animation-name: transi;
 animation-duration: 1s;
 
