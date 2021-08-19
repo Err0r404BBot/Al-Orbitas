@@ -378,6 +378,7 @@ animation-duration: 1s;
       left: 35%;
       width: 25%;
       opacity: 0.6;
+      filter:blur(1px);
 
   }
     .text-fixed{
@@ -480,6 +481,7 @@ animation-duration: 1s;
       left: 10%;
       width: 20%;
       opacity: 0.6;
+       filter:blur(1px);
 
   }
   .text-fixed{
@@ -582,6 +584,7 @@ animation-duration: 1s;
       left: 10%;
       width: 20%;
       opacity: 0.6;
+       filter:blur(1px);
 
   }
   .text-fixed{
@@ -690,6 +693,7 @@ animation-duration: 1s;
       left: 10%;
       width: 21%;
       opacity: 0.6;
+       filter:blur(1px);
 
   }
   .text-fixed{
@@ -799,6 +803,7 @@ animation-duration: 1s;
       left: 10%;
       width: 20%;
       opacity: 0.6;
+       filter:blur(1px);
 
   }
   .text-fixed{
