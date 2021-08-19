@@ -377,6 +377,7 @@ animation-duration: 1s;
       top:7%;
       left: 35%;
       width: 25%;
+      opacity: 0.6;
 
   }
     .text-fixed{
@@ -386,7 +387,7 @@ animation-duration: 1s;
       top: 55%;
   }
   .text-fixed p{
-    font-size: 0.7em;
+    font-size: 0.9em;
     opacity: 0.5;
   }
   .icono-inicio{
@@ -398,7 +399,7 @@ animation-duration: 1s;
 
   .icono-inicio p{
 
-      font-size: 0.6em;
+      font-size: 1em;
 
   }
   /*-----------SATÉLITES--------*/
@@ -478,6 +479,7 @@ animation-duration: 1s;
       top:35%;
       left: 10%;
       width: 20%;
+      opacity: 0.6;
 
   }
   .text-fixed{
@@ -489,7 +491,7 @@ animation-duration: 1s;
   }
   .text-fixed p{
 
-    font-size: 10px;
+    font-size: 0.9em;
   }
   .icono-inicio{
 
@@ -500,7 +502,7 @@ animation-duration: 1s;
 
   .icono-inicio p{
 
-      font-size: 0.6em;
+      font-size: 1em;
 
   }
   /*-----------SATÉLITES--------*/
@@ -579,6 +581,7 @@ animation-duration: 1s;
       top:35%;
       left: 10%;
       width: 20%;
+      opacity: 0.6;
 
   }
   .text-fixed{
@@ -590,7 +593,7 @@ animation-duration: 1s;
   }
   .text-fixed p{
 
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
   .icono-inicio{
 
@@ -601,7 +604,7 @@ animation-duration: 1s;
 
   .icono-inicio p{
 
-      font-size: 0.8em;
+      font-size: 1em;
 
   }
   /*-----------SATÉLITES--------*/
@@ -686,6 +689,7 @@ animation-duration: 1s;
       top:36%;
       left: 10%;
       width: 21%;
+      opacity: 0.6;
 
   }
   .text-fixed{
@@ -697,7 +701,7 @@ animation-duration: 1s;
   }
   .text-fixed p{
 
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .icono-inicio{
 
@@ -708,7 +712,7 @@ animation-duration: 1s;
 
   .icono-inicio p{
 
-      font-size: 0.8em;
+      font-size: 1em;
 
   }
   /*-----------SATÉLITES--------*/
@@ -794,6 +798,7 @@ animation-duration: 1s;
       top:25%;
       left: 10%;
       width: 20%;
+      opacity: 0.6;
 
   }
   .text-fixed{
@@ -816,7 +821,7 @@ animation-duration: 1s;
 
   .icono-inicio p{
 
-      font-size: 0.8em;
+      font-size: 1em;
 
   }
   /*-----------SATÉLITES--------*/
