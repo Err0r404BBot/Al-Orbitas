@@ -1,0 +1,704 @@
+body,html{background-color: #1646b0;}
+a{
+  color:#00ffff;
+  text-decoration: none;}
+
+
+h1{
+  padding: none;
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 50px;
+  opacity:0.3;
+  width: 100%;
+  max-width: 500px;
+  position: fixed;
+  right: 5rem;
+  top: 5%;
+  transform: translateY(-50%);
+}
+
+.icono-atras img{
+  position:fixed;
+  margin: 0;
+  padding: 0;
+  width:5%;
+  height:5%;
+  left:5%;
+  top: 5%;
+  opacity: 0.3;
+
+}
+
+.icono-atras a p{
+  top: 87%;
+  left: 17%;
+}
+/*----------INDEX----------*/
+
+.fondo{
+  position:relative;
+  height: 99vh;
+  width:100%;
+  background-image: url(img/intro.png);
+  background-size: 100%;
+
+}
+
+ h2, h2#al{
+  position: fixed;
+  left: initial;
+  top:45%;
+  filter: inherit;
+  padding: none;
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 5em;
+  opacity:0.3;
+  left: 15%;
+  filter:blur(5px);
+  width: 65%;
+}
+
+h2:hover, #al:hover{
+  filter:blur(0);
+}
+
+
+/*---------Al HOME-------*/
+
+.fondohome{
+
+  position:relative;
+  margin: 0;
+  padding: 0;
+  height: 300vh;
+  width:100%;
+  background-image: url(img/portada.png);
+  background-size:100%;
+}
+
+.icono-intro img{
+
+  position: fixed;
+  margin:0;
+  padding: 0;
+  top:32%;
+  left: 10%;
+  width: 25%;
+  opacity:0.8;
+  transform: translateY(-20%);
+  filter: blur(5px);
+  opacity: 0.3;
+}
+
+.icono-intro:hover  img{
+  filter: blur(0);
+}
+.icono-inicio{
+  position: fixed;
+  width: 10%;
+  height: 2%;
+  top: 1%;
+  left: 2%;
+
+}
+.icono-inicio p{
+
+    font-size: 1.2em;
+    font-family: 'Courier Prime', monospace;
+    color:#00ffff;
+    filter: blur(0.5px);
+    opacity: 0.6;
+    text-decoration: underline;
+
+}
+.text-fixed{
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    right: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text-fixed p{
+  padding: none;
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 18px;
+  opacity:0.3;
+}
+
+
+/*--------SATÉLITES----------*/
+
+.fondosatelites{
+  position:relative;
+  height: 200vh;
+  width:100%;
+  background-image: url(img/Home.png);
+  background-size: 100%;
+}
+
+.titan{
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 50px;
+  opacity:0.3;
+  position: fixed;
+  top: 5%;
+  left: 40%;
+  animation-name: transi;
+  animation-duration: 1s
+
+}
+.rea{
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 50px;
+  opacity:0.3;
+  position: fixed;
+  top: 15%;
+  left: 60%;
+  animation-name: transi;
+  animation-duration: 1s
+
+}
+.pandora{
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 50px;
+  opacity:0.3;
+  position: fixed;
+  top: 15%;
+  left: 20%;
+  animation-name: transi;
+  animation-duration: 1s
+
+}
+.mimas{
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 50px;
+  opacity:0.3;
+  position: fixed;
+  top: 25%;
+  left: 70%;
+  animation-name: transi;
+  animation-duration: 1s
+}
+.febe{
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 40px;
+  opacity:0.3;
+  position: fixed;
+  top: 40%;
+  left: 65%;
+  animation-name: transi;
+  animation-duration: 1s
+
+}
+.engeon{
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 50px;
+  opacity:0.3;
+  position: fixed;
+  top: 32.5%;
+  left: 20%;
+  animation-name: transi;
+  animation-duration: 1s
+
+}
+.encelado{
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 50px;
+  opacity:0.3;
+  position: fixed;
+  top: 60%;
+  left: 23%;
+  animation-name: transi;
+  animation-duration: 1s
+}
+.tetis{
+  position:fixed;
+  padding: none;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 30px;
+  opacity:0.3;
+  top: 60%;
+  left: 60%;
+  animation-name: transi;
+  animation-duration: 1s
+
+}
+
+.fondotitan{
+position:relative;height: 260vh; width:100%;
+background-image: url(img/titan.png);
+background-size:100%;
+animation-name: transi;
+animation-duration: 1s;
+
+}
+
+.fondorea{
+position:relative;height: 240vh; width:100%;
+background-image: url(img/rea.png);
+background-size:cover;
+animation-name: transi;
+animation-duration: 1s;
+
+}
+
+
+.fondopandora{
+position:relative;height: 260vh; width:100%;
+background-image: url(img/pandora.png);
+background-size: 100%;
+animation-name: transi;
+animation-duration: 1s;
+
+}
+
+
+.fondomimas{
+position:relative;height: 260vh; width:100%;
+background-image: url(img/mimas.png);
+background-size: 100%;
+animation-name: transi;
+animation-duration: 1s;
+
+}
+
+
+
+.fondofebe{
+position:relative;height: 260vh; width:100%;
+background-image: url(img/Febe.png);
+background-size: 100%;
+animation-name: transi;
+animation-duration: 1s;
+}
+
+
+.fondoengeon{
+position:relative;height: 260vh; width:100%;
+background-image: url(img/en__.png);
+background-size: 100%;
+animation-name: transi;
+animation-duration: 1s;
+
+}
+
+.fondoencelado{
+position:relative;height: 200vh; width:100%;
+background-image: url(img/encelado.png);
+background-size:100%;
+animation-name: transi;
+animation-duration: 1s;
+
+}
+
+.fondotetis{
+position:relative;height: 260vh; width:100%;
+background-image: url(img/tetis.png);
+background-size:100%;
+animation-name: transi;
+animation-duration: 1s;
+
+}
+
+
+.controles audio{
+  width: 100%;
+  max-width: 500px;
+  position: fixed;
+  right: 5rem;
+  top: 80%;
+  transform: translateY(-50%);
+  color: #00ffff;
+  filter: invert(100%);
+  opacity:0.3;
+
+
+}
+
+.controles:hover audio{
+  filter: hue-rotate(90deg);
+}
+
+
+/*////////MEDIA QUERIES////////*/
+@media (min-width: 261px) and (max-width: 480px){
+
+/*-------INDEX------*/
+  .fondo{
+    background-repeat: no-repeat;
+    margin-top: 55%;
+  }
+
+  h2#al{
+    font-size: 2em;
+    top:40%;
+    left:15%;
+    width: 70%;
+    filter: blur(0);
+  }
+  /*-------AL HOME-------*/
+  .icono-intro img{
+      top:7%;
+      left: 35%;
+      width: 25%;
+
+  }
+    .text-fixed{
+      width: 53%;
+      position: fixed;
+      left: 25%;
+      top: 55%;
+  }
+  .text-fixed p{
+    font-size: 0.6em;
+  }
+  .icono-inicio{
+
+    top: 1%;
+    left: 3%;
+
+  }
+
+  .icono-inicio p{
+
+      font-size: 0.6em;
+
+  }
+  /*-----------SATÉLITES--------*/
+.titan, .rea, .pandora, .mimas, .engeon, .encelado{
+      font-size: 22px;
+    }
+.engeon{
+    top: 34%;
+    left: 9%;
+  }
+.encelado{
+    left: 11%;
+  }
+.tetis{
+    font-size: 18px;
+    top:49%;
+  }
+.febe{
+    font-size: 14px;
+  }
+/*-----------TITÁN----------*/
+.text-fixed p {
+    font-size: 0.6em;
+    top: 28%;
+  }
+  .fondotitan h1{
+    font-size: 1.8em;
+    left: 28%;
+    top:24%;
+  }
+  .controles audio {
+    width: 70%;
+    right: 15%;
+    top: 80%;
+  }
+}
+@media (min-width: 481px) and (max-width: 581px) {
+
+  .fondo{
+    background-repeat: no-repeat;
+    top:35%;
+
+  }
+
+  h2#al{
+    font-size: 3em;
+    top:35%;
+    left:20%;
+    width: 35%;
+    filter: blur(0);
+  }
+  /*-------AL HOME-------*/
+  .icono-intro img{
+
+      top:35%;
+      left: 10%;
+      width: 20%;
+
+  }
+  .text-fixed{
+
+      width: 50%;
+      right: 12%;
+      top: 50%;
+
+  }
+  .text-fixed p{
+
+    font-size: 10px;
+  }
+  .icono-inicio{
+
+    top: 1%;
+    left: 3%;
+
+  }
+
+  .icono-inicio p{
+
+      font-size: 0.6em;
+
+  }
+  /*-----------SATÉLITES--------*/
+.titan, .rea, .pandora, .mimas, .engeon, .encelado{
+      font-size: 22px;
+    }
+.engeon{
+    top: 34%;
+    left: 9%;
+  }
+.encelado{
+    left: 11%;
+  }
+.tetis{
+    font-size: 18px;
+    top:49%;
+  }
+.febe{
+    font-size: 14px;
+  }
+  /*-----------TITÁN----------*/
+  .text-fixed p {
+      font-size: 0.6em;
+      top: 28%;
+    }
+    .fondotitan h1{
+      font-size: 1.8em;
+      left: 28%;
+      top:24%;
+    }
+    .controles audio {
+      width: 70%;
+      right: 15%;
+      top: 80%;
+    }
+}
+@media (min-width: 582px) and (max-width: 640px){
+
+    .fondo{
+      background-repeat: no-repeat;
+      top:35%;
+    }
+
+  h2#al{
+    font-size: 2em;
+    top:40%;
+    left:25%;
+    width: 45%;
+    filter: blur(0);
+  }
+  /*-------AL HOME-------*/
+  .icono-intro img{
+
+      top:35%;
+      left: 10%;
+      width: 20%;
+
+  }
+  .text-fixed{
+
+      width: 50%;
+      right: 12%;
+      top: 50%;
+
+  }
+  .text-fixed p{
+
+    font-size: 0.7em;
+  }
+  .icono-inicio{
+
+    top: 2%;
+    left: 3%;
+
+  }
+
+  .icono-inicio p{
+
+      font-size: 0.8em;
+
+  }
+  /*-----------SATÉLITES--------*/
+.titan, .rea, .pandora, .mimas, .engeon, .encelado{
+      font-size: 22px;
+    }
+.engeon{
+    top: 34%;
+    left: 9%;
+  }
+.encelado{
+    left: 11%;
+  }
+.tetis{
+    font-size: 18px;
+    top:52%;
+  }
+.febe{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width :641px) and (max-width : 767px) {
+
+  /*--------------INDEX--------------*/
+
+  .fondo{
+    background-repeat: no-repeat;
+    top:35%;
+  }
+
+  h2#al{
+    font-size: 3em;
+    top:35%;
+    left:25%;
+    width: 35%;
+    filter: blur(0);
+  }
+  /*-------AL HOME-------*/
+  .icono-intro img{
+
+
+      top:36%;
+      left: 10%;
+      width: 21%;
+
+  }
+  .text-fixed{
+
+      width: 50%;
+      right:12%;
+      top: 49%;
+
+  }
+  .text-fixed p{
+
+    font-size: 0.8em;
+  }
+  .icono-inicio{
+
+    top: 1%;
+    left: 3%;
+
+  }
+
+  .icono-inicio p{
+
+      font-size: 0.8em;
+
+  }
+  /*-----------SATÉLITES--------*/
+.titan, .rea, .pandora, .mimas, .engeon, .encelado{
+      font-size: 22px;
+    }
+.engeon{
+    top: 34%;
+    left: 9%;
+  }
+.encelado{
+    left: 11%;
+  }
+.tetis{
+    font-size: 18px;
+    top:52%;
+  }
+.febe{
+    font-size: 14px;
+  }
+
+  }
+@media only screen and (min-width :768px) and (max-width : 1023px) {
+  /*--------------INDEX--------------*/
+
+  .fondo{
+    background-repeat: no-repeat;
+
+  }
+
+  h2#al{
+
+    font-size: 3em;
+    top:30%;
+    left:25%;
+    width: 45%;
+    filter: blur(0);
+
+  }
+
+  /*-------AL HOME-------*/
+  .icono-intro img{
+
+
+      top:25%;
+      left: 10%;
+      width: 20%;
+
+  }
+  .text-fixed{
+
+      width: 50%;
+      right: 12%;
+      top: 48%;
+
+  }
+  .text-fixed p{
+      font-size:1em;
+  }
+
+  .icono-inicio{
+
+    top: 1%;
+    left: 3%;
+
+  }
+
+  .icono-inicio p{
+
+      font-size: 0.8em;
+
+  }
+  /*-----------SATÉLITES--------*/
+.titan, .rea, .pandora, .mimas, .engeon, .encelado{
+      font-size: 22px;
+    }
+.engeon{
+    top: 34%;
+    left: 9%;
+  }
+.encelado{
+    left: 11%;
+  }
+.tetis{
+    font-size: 18px;
+    top:52%;
+  }
+.febe{
+    font-size: 14px;
+  }
+}
