@@ -341,6 +341,22 @@ animation-duration: 1s;
   filter: hue-rotate(90deg);
 }
 
+.text-fixed1{
+    width: 100%;
+    max-width: 500px;
+    position: fixed;
+    right: 5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.text-fixed1 p{
+  padding: none;
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  color:#00ffff;
+  font-size: 18px;
+  opacity:0.3;
+}
 
 /*////////MEDIA QUERIES////////*/
 @media (min-width: 261px) and (max-width: 480px){
@@ -418,6 +434,15 @@ animation-duration: 1s;
     width: 70%;
     right: 15%;
     top: 80%;
+  }
+   .text-fixed1{
+      width: 53%;
+      position: fixed;
+      left: 25%;
+      top: 35%;
+  }
+  .text-fixed1 p{
+    font-size: 0.8em;
   }
 }
 @media (min-width: 481px) and (max-width: 581px) {
