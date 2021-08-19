@@ -141,7 +141,7 @@ h2:hover, #al:hover{
   position:relative;
   height: 200vh;
   width:100%;
-  background-image: url(img/Home.png);
+  background-image: url(img/home.png);
   background-size: 100%;
 }
 
@@ -290,7 +290,7 @@ animation-duration: 1s;
 
 .fondofebe{
 position:relative;height: 260vh; width:100%;
-background-image: url(img/Febe.png);
+background-image: url(img/epi.png);
 background-size: 100%;
 animation-name: transi;
 animation-duration: 1s;
@@ -299,7 +299,7 @@ animation-duration: 1s;
 
 .fondoengeon{
 position:relative;height: 260vh; width:100%;
-background-image: url(img/en__.png);
+background-image: url(img/en.png);
 background-size: 100%;
 animation-name: transi;
 animation-duration: 1s;
