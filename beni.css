@@ -362,10 +362,6 @@ animation-duration: 1s;
 @media (min-width: 261px) and (max-width: 480px){
 
 /*-------INDEX------*/
-  .fondo{
-    background-repeat: no-repeat;
-    margin-top: 55%;
-  }
 
   h2#al{
     font-size: 2em;
@@ -594,12 +590,7 @@ animation-duration: 1s;
 
   /*--------------INDEX--------------*/
 
-  .fondo{
-    background-repeat: no-repeat;
-    top:35%;
-  }
-
-  h2#al{
+    h2#al{
     font-size: 3em;
     top:35%;
     left:25%;
@@ -660,11 +651,6 @@ animation-duration: 1s;
   }
 @media only screen and (min-width :768px) and (max-width : 1023px) {
   /*--------------INDEX--------------*/
-
-  .fondo{
-    background-repeat: no-repeat;
-
-  }
 
   h2#al{
 
