@@ -439,6 +439,7 @@ animation-duration: 1s;
   }
   .text-fixed1 p{
     font-size: 0.8em;
+    opacity:0.7;
   }
 }
 @media (min-width: 481px) and (max-width: 581px) {
