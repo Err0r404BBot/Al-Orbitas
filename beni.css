@@ -438,7 +438,7 @@ animation-duration: 1s;
       width: 53%;
       position: fixed;
       left: 25%;
-      top: 35%;
+      top: 48%;
   }
   .text-fixed1 p{
     font-size: 0.8em;
@@ -524,6 +524,16 @@ animation-duration: 1s;
       right: 15%;
       top: 80%;
     }
+    .text-fixed1{
+      width: 53%;
+      position: fixed;
+      left: 25%;
+      top: 48%;
+  }
+  .text-fixed1 p{
+    font-size: 0.8em;
+    opacity:0.7;
+  }
 }
 @media (min-width: 582px) and (max-width: 640px){
 
@@ -588,6 +598,16 @@ animation-duration: 1s;
 .febe{
     font-size: 14px;
   }
+    .text-fixed1{
+      width: 53%;
+      position: fixed;
+      left: 25%;
+      top: 48%;
+  }
+  .text-fixed1 p{
+    font-size: 0.8em;
+    opacity:0.7;
+  }
 }
 
 @media only screen and (min-width :641px) and (max-width : 767px) {
@@ -651,7 +671,16 @@ animation-duration: 1s;
 .febe{
     font-size: 14px;
   }
-
+  .text-fixed1{
+      width: 53%;
+      position: fixed;
+      left: 25%;
+      top: 48%;
+  }
+  .text-fixed1 p{
+    font-size: 0.8em;
+    opacity:0.7;
+  }
   }
 @media only screen and (min-width :768px) and (max-width : 1023px) {
   /*--------------INDEX--------------*/
